@@ -18,6 +18,13 @@ The following code block has a file path `src/helloworld.py`:
 def hello():
     return "v1.0.0 world"
 
+
+def world():
+    return hello()
+
+
+print(world())
+
 ```
 
 See [src/helloworld.py](./src/helloworld.py) as:
